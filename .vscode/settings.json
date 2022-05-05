@@ -1,0 +1,10 @@
+{
+  "protoc": {},
+  "tslint.typeCheck": true,
+  "vetur.completion.scaffoldSnippetSources": {
+    "source": "",
+    "workspace": "💼",
+    "user": "🗒️",
+    "vetur": "✌"
+  }
+}
