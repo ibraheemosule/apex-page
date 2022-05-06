@@ -3,8 +3,3 @@ node_modules
 dist
 dist-ssr
 *.local
-
-collections
-reusables
-images
-Layout.vue

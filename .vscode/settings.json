@@ -3,8 +3,21 @@
   "tslint.typeCheck": true,
   "vetur.completion.scaffoldSnippetSources": {
     "source": "",
-    "workspace": "💼",
-    "user": "🗒️",
-    "vetur": "✌"
-  }
+    "workspace": "",
+    "user": "",
+    "vetur": ""
+  },
+  "emmet.preferences": {}
 }
+
+// {
+//   "protoc": {},
+//   "tslint.typeCheck": true,
+//   "vetur.completion.scaffoldSnippetSources": {
+//     "source": "",
+//     "workspace": "💼",
+//     "user": "🗒️",
+//     "vetur": "✌"
+//   },
+//   "emmet.preferences": {}
+// }
