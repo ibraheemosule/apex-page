@@ -56,7 +56,7 @@ export const featuresInfo = [
   },
 ];
 
-const customerText = {
+export const customerText = {
   title: "Meet your customers, with live video chat",
   text1:
     "Proin faucibus nibh et sagittis a. Lacinia purus ac amet pellentesque aliquam enim.",

@@ -4,12 +4,14 @@
   import img from "../../assets/images";
   import { usersAvi, userCard, heroText } from "../../assets/utils";
   import HeroCard from "../reusables/HeroCard.vue";
+
+  const style = { font: 400 };
 </script>
 
 <template>
   <div class="hero tw-mt-16 md:tw-mt-24 md:tw-flex tw-gap-6">
     <div class="hero__title md:tw-basis-1/2">
-      <SectionInfo :title="heroText.title" :text="heroText.text">
+      <SectionInfo :font="style" :title="heroText.title" :text="heroText.text">
         <template #other>
           <Btn class="tw-mt-8 tw-flex tw-items-center">
             <span>start chatting now</span>

@@ -16,7 +16,7 @@
     <section class="tw-container tw--mt-40 tw-z-30 tw-py-16 tw-bg-white">
       <Features />
     </section>
-    <section class="">
+    <section class="tw-bg-bg-3 tw-py-8">
       <MeetCustomers />
     </section>
   </main>
