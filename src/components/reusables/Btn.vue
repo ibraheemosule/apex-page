@@ -1,7 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <button class="tw-bg-ter-col tw-py-2 tw-px-4 tw-text-white tw-rounded-md">
+  <button
+    class="tw-bg-ter-col tw-py-2 tw-px-4 tw-text-white tw-rounded-md tw-capitalize"
+  >
     <slot></slot>
   </button>
 </template>

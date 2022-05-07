@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  import img from "../../assets/images/index.ts";
   import { ref } from "vue";
   import Button from "../reusables/Btn.vue";
 
@@ -34,11 +35,7 @@
 <template>
   <nav class="">
     <div class="logo__wrapper tw-bg-white md:tw-bg-transparent">
-      <img
-        class="tw-w-20 tw-h-auto"
-        src="../../assets/images/Logo.svg"
-        alt="website logo"
-      />
+      <img class="tw-w-20 tw-h-auto" :src="img.Logo" alt="website logo" />
 
       <button @click="toggleNav" ref="button" class="hamburger md:tw-hidden">
         <span class="first"></span>
