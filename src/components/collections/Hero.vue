@@ -84,7 +84,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
   .user-img-grp img:not(:nth-child(1)) {
     margin-left: -15px;
   }

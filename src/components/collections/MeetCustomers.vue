@@ -15,10 +15,10 @@
         alt="smiling-african-american-woman-using-mobile-phone-shopping-online-reading-text-message"
       />
     </div>
-    <div class="hero__title tw-mt-12 md:tw-mt-0 md:tw-basis-1/2 tw-self-center">
+    <div class="tw-mt-12 md:tw-mt-0 md:tw-basis-1/2 tw-self-center">
       <SectionInfo :style="style" :title="_.title" :text="_.text1">
         <template #other>
-          <p class="tw-font-body tw-font-light tw-mt-4 tw-mr-24">
+          <p class="tw-font-body tw-font-light tw-mt-4 lg:tw-mr-24">
             Get paychecks up to two days early. Get a $20 bonus when you receive
             qualifying direct deposits
           </p>

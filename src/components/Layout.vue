@@ -3,6 +3,7 @@
   import Hero from "./collections/Hero.vue";
   import Features from "./collections/Features.vue";
   import MeetCustomers from "./collections/MeetCustomers.vue";
+  import StartSelling from "./collections/StartSelling.vue";
 </script>
 
 <template>
@@ -18,6 +19,9 @@
     </section>
     <section class="tw-bg-bg-3 tw-py-8">
       <MeetCustomers />
+    </section>
+    <section class="tw-py-8">
+      <StartSelling />
     </section>
   </main>
 </template>

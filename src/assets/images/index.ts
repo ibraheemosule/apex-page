@@ -18,6 +18,9 @@ import UsingMobile from "./using-mobile.png";
 import Vector from "./Vector.svg";
 import Vector2 from "./Vector2.svg";
 import Customer from "./customer.png";
+import ChatCard from "./ChatCard.png";
+import StatCard from "./StatCard.png";
+import CallCard from "./CallCard.png";
 
 export default {
   Rectangle13,
@@ -40,4 +43,7 @@ export default {
   Vector,
   Vector2,
   Customer,
+  ChatCard,
+  StatCard,
+  CallCard,
 };

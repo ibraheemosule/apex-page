@@ -63,3 +63,11 @@ export const customerText = {
   text2:
     "Get paychecks up to two days early. Get a $20 bonus when you receive qualifying direct deposits",
 };
+
+export const startSellingText = {
+  title: "Start selling directly inside conversations",
+  text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered all injected humour or randomised words which don't look even slightly believable. ",
+  ChatCard: img.ChatCard,
+  StatCard: img.StatCard,
+  CallCard: img.CallCard,
+};
