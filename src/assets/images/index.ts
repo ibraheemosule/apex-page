@@ -21,6 +21,7 @@ import Customer from "./customer.png";
 import ChatCard from "./ChatCard.png";
 import StatCard from "./StatCard.png";
 import CallCard from "./CallCard.png";
+import MessageCard from "./MessageCard.png";
 
 export default {
   Rectangle13,
@@ -46,4 +47,5 @@ export default {
   ChatCard,
   StatCard,
   CallCard,
+  MessageCard,
 };

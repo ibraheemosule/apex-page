@@ -4,6 +4,7 @@
   import Features from "./collections/Features.vue";
   import MeetCustomers from "./collections/MeetCustomers.vue";
   import StartSelling from "./collections/StartSelling.vue";
+  import Orders from "./collections/Orders.vue";
 </script>
 
 <template>
@@ -20,10 +21,11 @@
     <section class="tw-bg-bg-3 tw-py-8">
       <MeetCustomers />
     </section>
-    <section class="tw-py-8">
+    <section class="tw-py-8 tw-overflow-hidden">
       <StartSelling />
+    </section>
+    <section class="tw-bg-bg-3 tw-py-8">
+      <Orders />
     </section>
   </main>
 </template>
-
-<style></style>

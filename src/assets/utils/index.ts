@@ -71,3 +71,11 @@ export const startSellingText = {
   StatCard: img.StatCard,
   CallCard: img.CallCard,
 };
+
+export const ordersText = {
+  title: "Get direct orders from your customers",
+  text: "Create custom landing pages with Rareblocks that converts more visitors than any website. With lots of unique blocks easily build a page. There are many variations of passages of available.",
+  MessageCard: img.MessageCard,
+  StatCard: img.StatCard,
+  CallCard: img.CallCard,
+};
