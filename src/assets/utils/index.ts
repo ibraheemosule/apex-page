@@ -1,4 +1,7 @@
 import img from "../images";
+import cameraIcon from "../images/CameraIcon.svg";
+import timeIcon from "../images/TimeIcon.svg";
+import safeIcon from "../images/SafeIcon.svg";
 
 export const usersAvi = [
   {
@@ -26,5 +29,23 @@ export const userCard = [
     alt: "user 2",
     name: "Jenny Wilson",
     text: "I commented on Figma, I want to add some fancy icons. Do you have any icon set?",
+  },
+];
+
+export const featuresInfo = [
+  {
+    title: "Video messaging",
+    icon: cameraIcon,
+    bgColor: "#fd600333",
+  },
+  {
+    title: "Save your time",
+    icon: timeIcon,
+    bgColor: "#4da44f33",
+  },
+  {
+    title: "Keep safe & private",
+    icon: safeIcon,
+    bgColor: "#fb8e0b33",
   },
 ];

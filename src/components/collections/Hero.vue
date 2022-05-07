@@ -74,7 +74,7 @@
         <HeroCard :user="userCard[0]" />
       </div>
       <div
-        class="first-card tw-z-20 tw-w-7/12 sm:tw-w-5/12 md:tw-w-8/12 lg:tw-w-6/12 xl:tw-w-5/12 tw-absolute tw-top-1/2 tw-right-0"
+        class="first-card tw-z-20 tw-w-7/12 sm:tw-w-5/12 md:tw-w-8/12 lg:tw-w-6/12 xl:tw-w-5/12 tw-absolute tw-top-1/3 tw-right-0"
       >
         <HeroCard :user="userCard[1]" />
       </div>
@@ -95,6 +95,10 @@
 
   .info-text > img:not(:nth-child(1)) {
     margin-left: 0.5rem;
+  }
+
+  .hero__img {
+    z-index: -1;
   }
 
   .first-card {
