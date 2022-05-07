@@ -17,6 +17,7 @@ import Logo from "./Logo.svg";
 import UsingMobile from "./using-mobile.png";
 import Vector from "./Vector.svg";
 import Vector2 from "./Vector2.svg";
+import Customer from "./customer.png";
 
 export default {
   Rectangle13,
@@ -38,4 +39,5 @@ export default {
   UsingMobile,
   Vector,
   Vector2,
+  Customer,
 };

@@ -2,15 +2,15 @@
   import SectionInfo from "../reusables/SectionInfo.vue";
   import Btn from "../reusables/Btn.vue";
   import img from "../../assets/images";
-  import { usersAvi, userCard } from "../../assets/utils";
+  import { usersAvi, userCard, heroText } from "../../assets/utils";
   import HeroCard from "../reusables/HeroCard.vue";
 </script>
 
 <template>
   <div class="hero tw-mt-16 md:tw-mt-24 md:tw-flex tw-gap-6">
     <div class="hero__title md:tw-basis-1/2">
-      <SectionInfo>
-        <template #btn>
+      <SectionInfo :title="heroText.title" :text="heroText.text">
+        <template #other>
           <Btn class="tw-mt-8 tw-flex tw-items-center">
             <span>start chatting now</span>
             <img class="tw-ml-2 tw-w-4" :src="img.ArrowRight" />

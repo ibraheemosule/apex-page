@@ -3,6 +3,12 @@ import cameraIcon from "../images/CameraIcon.svg";
 import timeIcon from "../images/TimeIcon.svg";
 import safeIcon from "../images/SafeIcon.svg";
 
+export const heroText = {
+  title: "Start chatting with customers, anytime, anywhere with Apex",
+  text: `Great software that allows you to chat 
+  from any place at any time without any interruption.`,
+};
+
 export const usersAvi = [
   {
     image: img.Rectangle24,
@@ -49,3 +55,11 @@ export const featuresInfo = [
     bgColor: "#fb8e0b33",
   },
 ];
+
+const customerText = {
+  title: "Meet your customers, with live video chat",
+  text1:
+    "Proin faucibus nibh et sagittis a. Lacinia purus ac amet pellentesque aliquam enim.",
+  text2:
+    "Get paychecks up to two days early. Get a $20 bonus when you receive qualifying direct deposits",
+};

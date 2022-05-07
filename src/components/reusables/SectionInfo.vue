@@ -1,15 +1,19 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  const props = defineProps<{
+    title: string;
+    text: string;
+  }>();
+</script>
 
 <template>
   <div class="">
     <h1 class="tw-font-title">
-      Start chatting with customers, anytime, anywhere with Apex
+      {{ title }}
     </h1>
     <p class="tw-text-body-col tw-font-body tw-mt-4 xl:tw-mr-56">
-      Great software that allows you to chat from any place at any time without
-      any interruption.
+      {{ text }}
     </p>
-    <slot name="btn"></slot>
+    <slot name="other"></slot>
   </div>
 </template>
 
