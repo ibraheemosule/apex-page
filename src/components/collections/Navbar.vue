@@ -46,9 +46,11 @@
         <span class="third"></span>
       </button>
     </div>
-    <ul class="tw-bg-white md:tw-bg-transparent tw-text-header-col" ref="ul">
+    <ul
+      class="tw-bg-white tw-z-20 md:tw-bg-transparent tw-text-header-col"
+      ref="ul"
+    >
       <li class="md:tw-ml-auto">Demos</li>
-
       <li
         v-for="(nav, i) in navItems"
         :key="nav"
