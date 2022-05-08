@@ -76,7 +76,7 @@ module.exports = {
         //MD SCREENS ABOVE
         [`@media (min-width: 768px)`]: {
           ".container": {
-            "max-width": "840px",
+            "max-width": "768px",
           },
         },
         //LG SCREENS ABOVE
