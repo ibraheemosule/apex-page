@@ -79,3 +79,20 @@ export const ordersText = {
   StatCard: img.StatCard,
   CallCard: img.CallCard,
 };
+
+export const aboutUsText = [
+  {
+    title: "“Incredible Experience”",
+    text: "We had an incredible experience working with Mixland and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the concept so quickly.",
+    name: "Wade Warren",
+    position: "CEO, ABC Corporation",
+    image: img.Rectangle16,
+  },
+  {
+    title: "“Dependable, Responsive, Professional”",
+    text: "Fermin Apps has collaborated with Mixland team for several projects such as Photo Sharing Apps and Custom Social Networking Apps. The experience has been pleasant, professional and exceeding our expectations. The team is always thinking beyond.",
+    name: "Esther Howard",
+    position: "CEO, ABC Corporation",
+    image: img.Rectangle17,
+  },
+];

@@ -5,6 +5,7 @@
   import MeetCustomers from "./collections/MeetCustomers.vue";
   import StartSelling from "./collections/StartSelling.vue";
   import Orders from "./collections/Orders.vue";
+  import AboutUs from "./collections/AboutUs.vue";
 </script>
 
 <template>
@@ -24,8 +25,11 @@
     <section class="tw-py-8 tw-overflow-hidden">
       <StartSelling />
     </section>
-    <section class="tw-bg-bg-3 tw-py-8">
+    <section class="tw-bg-bg-3 tw-pt-8 tw-pb-24 md:tw-pb-32">
       <Orders />
+    </section>
+    <section class="tw-bg-[#FB8E0B]">
+      <AboutUs />
     </section>
   </main>
 </template>
