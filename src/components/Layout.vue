@@ -27,8 +27,8 @@
         })
         .fromTo(
           el,
-          { scale: 0.95, autoAlpha: 0 },
-          { duration: 0.75, scale: 1, autoAlpha: 1 }
+          { scale: 0.9, autoAlpha: 0 },
+          { duration: 0.5, scale: 1, autoAlpha: 1 }
         );
     }
   });
