@@ -1,9 +1,10 @@
 <script setup lang="ts">
-  import { ref } from "vue";
+  import { defineAsyncComponent, ref } from "vue";
   import img from "./assets/images";
 
   const { Logo } = img;
   const loader = ref(true);
+  const Layout = defineAsyncComponent(() => import("./components/Layout.vue"));
   setTimeout(() => (loader.value = !loader.value), 3000);
 </script>
 
