@@ -1,7 +1,7 @@
 <script setup lang="ts">
   import img from "../../assets/images/index.ts";
   import { ref } from "vue";
-  import Button from "../reusables/Btn.vue";
+  import Btn from "../reusables/Btn.vue";
 
   const toggle = ref(false);
   const ul = ref<HTMLUListElement>();
@@ -52,7 +52,7 @@
       <li class="md:tw-ml-auto">
         <div class="tw-mb-2 md:tw-mb-0 md:tw-inline-block">Login</div>
         <div class="md:tw-mx-6 lg:tw-mx-12 tw-inline-block">
-          <Button>Get Started Free</Button>
+          <Btn>Get Started Free</Btn>
         </div>
       </li>
     </ul>
@@ -105,6 +105,10 @@
     cursor: pointer;
     transition: color 0.2s ease-out;
     transform: translate(-100%, -100%);
+  }
+
+  li:hover {
+    color: gray;
   }
 
   .hamburger {
