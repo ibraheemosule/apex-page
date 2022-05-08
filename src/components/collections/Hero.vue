@@ -17,7 +17,7 @@
         <template #other>
           <Btn class="tw-mt-8 tw-flex tw-items-center">
             <span>start chatting now</span>
-            <img class="tw-ml-2 tw-w-4" :src="img.ArrowRight" />
+            <img class="tw-inline tw-ml-2 tw-w-4" :src="img.ArrowRight" />
           </Btn>
         </template>
       </SectionInfo>

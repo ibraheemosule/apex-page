@@ -22,6 +22,10 @@ import ChatCard from "./ChatCard.png";
 import StatCard from "./StatCard.png";
 import CallCard from "./CallCard.png";
 import MessageCard from "./MessageCard.png";
+import TwitterIcon from "./twitter.svg";
+import FacebookIcon from "./facebook.svg";
+import GithubIcon from "./github.svg";
+import InstagramIcon from "./instagram.svg";
 
 export default {
   Rectangle13,
@@ -48,4 +52,8 @@ export default {
   StatCard,
   CallCard,
   MessageCard,
+  GithubIcon,
+  FacebookIcon,
+  InstagramIcon,
+  TwitterIcon,
 };

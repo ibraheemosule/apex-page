@@ -2,10 +2,12 @@
   import img from "../../assets/images/index.ts";
   import { ref } from "vue";
   import Btn from "../reusables/Btn.vue";
+  import { inject } from "vue";
 
-  const toggle = ref(false);
-  const ul = ref<HTMLUListElement>();
-  const button = ref<HTMLButtonElement>();
+  const homeUrl = inject("homeUrl"),
+    toggle = ref(false),
+    ul = ref<HTMLUListElement>(),
+    button = ref<HTMLButtonElement>();
 
   const toggleNav = () => {
     toggle.value = !toggle.value;
@@ -33,7 +35,7 @@
 </script>
 
 <template>
-  <nav class="tw-mt-4">
+  <nav class="tw-mt-4 tw-relative tw-w-full">
     <div class="logo__wrapper tw-bg-white md:tw-bg-transparent">
       <img class="tw-w-20 tw-h-auto" :src="img.Logo" alt="website logo" />
 
@@ -45,12 +47,22 @@
     </div>
     <ul class="tw-bg-white md:tw-bg-transparent tw-text-header-col" ref="ul">
       <li class="md:tw-ml-auto">Demos</li>
-      <li class="md:tw-ml-6 lg:tw-ml-12">About</li>
-      <li class="md:tw-ml-6 lg:tw-ml-12">Blog</li>
-      <li class="md:tw-ml-6 lg:tw-ml-12">Pages</li>
-      <li class="md:tw-ml-6 lg:tw-ml-12">Contact</li>
+      <li class="md:tw-ml-6 lg:tw-ml-12">
+        <a :href="homeUrl" target="_blank">About</a>
+      </li>
+      <li class="md:tw-ml-6 lg:tw-ml-12">
+        <a :href="homeUrl" target="_blank">Blog</a>
+      </li>
+      <li class="md:tw-ml-6 lg:tw-ml-12">
+        <a :href="homeUrl" target="_blank">Pages</a>
+      </li>
+      <li class="md:tw-ml-6 lg:tw-ml-12">
+        <a :href="homeUrl" target="_blank">Contact</a>
+      </li>
       <li class="md:tw-ml-auto">
-        <div class="tw-mb-2 md:tw-mb-0 md:tw-inline-block">Login</div>
+        <div class="tw-mb-2 md:tw-mb-0 md:tw-inline-block">
+          <a :href="homeUrl" target="_blank">Login</a>
+        </div>
         <div class="md:tw-mx-6 lg:tw-mx-12 tw-inline-block">
           <Btn>Get Started Free</Btn>
         </div>
@@ -60,11 +72,6 @@
 </template>
 
 <style scoped>
-  nav {
-    position: relative;
-    width: 100%;
-  }
-
   .logo__wrapper {
     display: flex;
     justify-content: space-between;

@@ -7,6 +7,11 @@
   import Orders from "./collections/Orders.vue";
   import AboutUs from "./collections/AboutUs.vue";
   import GrowBusiness from "./collections/GrowBusiness.vue";
+  import FooterNav from "./collections/FooterNav.vue";
+  import Copyright from "./collections/Copyright.vue";
+  import { provide } from "vue";
+
+  provide("homeUrl", "https://apexnetwork.co/");
 </script>
 
 <template>
@@ -35,5 +40,9 @@
     <section class="tw-container">
       <GrowBusiness />
     </section>
+    <footer class="tw-container">
+      <FooterNav />
+      <Copyright />
+    </footer>
   </main>
 </template>

@@ -96,3 +96,23 @@ export const aboutUsText = [
     image: img.Rectangle17,
   },
 ];
+
+export const socialIcons = [
+  {
+    icon: img.TwitterIcon,
+    alt: "twitter icon",
+  },
+  {
+    icon: img.FacebookIcon,
+    alt: "facebook icon",
+  },
+  {
+    icon: img.InstagramIcon,
+    alt: "instagram icon",
+  },
+
+  {
+    icon: img.GithubIcon,
+    alt: "github icon",
+  },
+];
