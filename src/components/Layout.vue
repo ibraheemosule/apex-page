@@ -22,7 +22,7 @@
         .timeline({
           scrollTrigger: {
             trigger: el,
-            toggleActions: "restart reverse restart reset",
+            toggleActions: "restart none restart reset",
           },
         })
         .fromTo(
