@@ -1,7 +1,4 @@
 import img from "../images";
-import cameraIcon from "../images/CameraIcon.svg";
-import timeIcon from "../images/TimeIcon.svg";
-import safeIcon from "../images/SafeIcon.svg";
 
 export const heroText = {
   title: "Start chatting with customers, anytime, anywhere with Apex",
@@ -41,17 +38,17 @@ export const userCard = [
 export const featuresInfo = [
   {
     title: "Video messaging",
-    icon: cameraIcon,
+    icon: img.CameraIcon,
     bgColor: "#fd600333",
   },
   {
     title: "Save your time",
-    icon: timeIcon,
+    icon: img.TimeIcon,
     bgColor: "#4da44f33",
   },
   {
     title: "Keep safe & private",
-    icon: safeIcon,
+    icon: img.SafeIcon,
     bgColor: "#fb8e0b33",
   },
 ];

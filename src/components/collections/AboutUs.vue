@@ -1,7 +1,9 @@
 <script setup lang="ts">
-  import img from "../../assets/images/Rectangle 13.png";
   import { aboutUsText } from "../../assets/utils";
   import AboutUsCard from "../reusables/AboutUsCard.vue";
+  import img from "../../assets/images";
+
+  const bgImg = `url(${img.Curves})`
 </script>
 
 <template>
@@ -29,7 +31,7 @@
 
 <style>
   .about__wrapper {
-    background-image: url("../../assets/images/Curves.svg");
+    background-image: v-bind(bgImg);
     background-repeat: no-repeat;
   }
 </style>

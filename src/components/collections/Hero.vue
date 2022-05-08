@@ -2,12 +2,12 @@
   import SectionInfo from "../reusables/SectionInfo.vue";
   import Btn from "../reusables/Btn.vue";
   import img from "../../assets/images";
-  import vector from "../../assets/images/Vector.svg";
-  import vector2 from "../../assets/images/Vector2.svg";
   import { usersAvi, userCard, heroText } from "../../assets/utils";
   import HeroCard from "../reusables/HeroCard.vue";
 
+
   const style = { font: 400 };
+  const {Vector: vector, Vector2: vector2} = img;
 </script>
 
 <template>

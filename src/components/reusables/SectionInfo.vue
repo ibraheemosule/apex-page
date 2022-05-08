@@ -1,7 +1,7 @@
 <script setup lang="ts">
   interface Props {
     title: string;
-    text: string;
+    text?: string;
     style?: {
       font: number;
       margin?: number;

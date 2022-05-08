@@ -7,7 +7,8 @@
   const homeUrl = inject("homeUrl"),
     toggle = ref(false),
     ul = ref<HTMLUListElement>(),
-    button = ref<HTMLButtonElement>();
+    button = ref<HTMLButtonElement>(),
+    navItems = ["About", "Blogs", "Pages", "Contact"];
 
   const toggleNav = () => {
     toggle.value = !toggle.value;
@@ -47,17 +48,13 @@
     </div>
     <ul class="tw-bg-white md:tw-bg-transparent tw-text-header-col" ref="ul">
       <li class="md:tw-ml-auto">Demos</li>
-      <li class="md:tw-ml-6 lg:tw-ml-12">
-        <a :href="homeUrl" target="_blank">About</a>
-      </li>
-      <li class="md:tw-ml-6 lg:tw-ml-12">
-        <a :href="homeUrl" target="_blank">Blog</a>
-      </li>
-      <li class="md:tw-ml-6 lg:tw-ml-12">
-        <a :href="homeUrl" target="_blank">Pages</a>
-      </li>
-      <li class="md:tw-ml-6 lg:tw-ml-12">
-        <a :href="homeUrl" target="_blank">Contact</a>
+
+      <li
+        v-for="(nav, i) in navItems"
+        :key="nav"
+        class="md:tw-ml-6 lg:tw-ml-12"
+      >
+        <a :href="homeUrl" target="_blank">{{ nav }}</a>
       </li>
       <li class="md:tw-ml-auto">
         <div class="tw-mb-2 md:tw-mb-0 md:tw-inline-block">
