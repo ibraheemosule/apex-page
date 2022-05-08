@@ -6,6 +6,7 @@
   import StartSelling from "./collections/StartSelling.vue";
   import Orders from "./collections/Orders.vue";
   import AboutUs from "./collections/AboutUs.vue";
+  import GrowBusiness from "./collections/GrowBusiness.vue";
 </script>
 
 <template>
@@ -30,6 +31,9 @@
     </section>
     <section class="tw-bg-[#FB8E0B]">
       <AboutUs />
+    </section>
+    <section class="tw-container">
+      <GrowBusiness />
     </section>
   </main>
 </template>

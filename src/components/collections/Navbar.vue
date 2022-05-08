@@ -33,7 +33,7 @@
 </script>
 
 <template>
-  <nav class="">
+  <nav class="tw-mt-4">
     <div class="logo__wrapper tw-bg-white md:tw-bg-transparent">
       <img class="tw-w-20 tw-h-auto" :src="img.Logo" alt="website logo" />
 
