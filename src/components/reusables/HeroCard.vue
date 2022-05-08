@@ -6,26 +6,28 @@
       text: string;
     };
   }>();
-
-  console.log(props.user.img);
 </script>
 
 <template>
-  <div class="card tw-rounded-xl tw-bg-[#ffffffe6] tw-flex tw-p-2 lg:tw-py-2.5">
-    <div class="tw-shrink-0 tw-w-12 lg:tw-w-12">
+  <div
+    class="card tw-rounded-xl tw-bg-[#ffffffe6] tw-flex tw-items-start tw-p-2 lg:tw-py-2.5"
+  >
+    <div
+      class="tw-shrink-0 tw-w-12 tw-aspect-square lg:tw-w-12 tw-rounded-full tw-bg-bg-1"
+    >
       <img
-        class="tw-w-12 lg:tw-w-20 tw-aspect-square tw-cursor-pointer hover:tw-scale-125 tw-rounded-full"
-        :src="props.user.img"
+        class="tw-w-full tw-h-full tw-cursor-pointer hover:tw-scale-125 tw-rounded-full"
+        :src="user.img"
         alt="message"
       />
     </div>
 
     <div class="tw-ml-2 lg:tw-ml-4">
-      <h5 class="tw-text-xs tw-font-semibold">{{ props.user.name }}</h5>
+      <h5 class="tw-text-xs tw-font-semibold">{{ user.name }}</h5>
       <p
         class="tw-text-font-body tw-mt-1 tw-font-light tw-text-xs tw-text-sec-col tw-leading-4"
       >
-        {{ props.user.text }}
+        {{ user.text }}
       </p>
     </div>
   </div>

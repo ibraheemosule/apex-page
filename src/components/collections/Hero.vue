@@ -2,6 +2,8 @@
   import SectionInfo from "../reusables/SectionInfo.vue";
   import Btn from "../reusables/Btn.vue";
   import img from "../../assets/images";
+  import vector from "../../assets/images/Vector.svg";
+  import vector2 from "../../assets/images/Vector2.svg";
   import { usersAvi, userCard, heroText } from "../../assets/utils";
   import HeroCard from "../reusables/HeroCard.vue";
 
@@ -21,13 +23,17 @@
       </SectionInfo>
       <div class="tw-mt-8 tw-flex tw-flex-wrap">
         <div class="user-img-grp tw-flex tw-items-center">
-          <img
+          <span
             v-for="{ image, alt } in usersAvi"
             :key="image"
-            class="tw-w-10 tw-cursor-pointer hover:tw-scale-125 tw-rounded-full tw-h-10 tw-outline tw-outline-3 tw-outline-white"
-            :src="image"
-            :alt="alt"
-          />
+            class="tw-w-10 tw-cursor-pointer hover:tw-scale-125 tw-rounded-full tw-h-10 tw-outline tw-outline-3 tw-outline-white tw-bg-bg-1"
+          >
+            <img
+              class="tw-h-full tw-w-full tw-rounded-full tw-object-cover"
+              :src="image"
+              :alt="alt"
+            />
+          </span>
         </div>
 
         <div class="tw-ml-8 md:tw-ml-8">
@@ -48,7 +54,7 @@
               v-for="i in 5"
               key="i"
               class=""
-              :src="i === 5 ? img.vector2 : img.vector"
+              :src="i === 5 ? vector2 : vector"
             />
             <span class="tw-ml-4">Rating</span>
           </p>
@@ -71,12 +77,12 @@
         />
       </div>
       <div
-        class="first-card tw-z-20 tw-w-7/12 sm:tw-w-5/12 md:tw-w-8/12 lg:tw-w-6/12 xl:tw-w-5/12 tw-absolute"
+        class="tw-absolute tw-top-[60%] tw-z-20 tw-w-7/12 sm:tw-w-5/12 md:tw-w-8/12 lg:tw-w-6/12 xl:tw-w-5/12 xl:-tw-left-4"
       >
         <HeroCard :user="userCard[0]" />
       </div>
       <div
-        class="first-card tw-z-20 tw-w-7/12 sm:tw-w-5/12 md:tw-w-8/12 lg:tw-w-6/12 xl:tw-w-5/12 tw-absolute tw-top-1/3 tw-right-0"
+        class="tw-z-20 tw-w-7/12 sm:tw-w-5/12 md:tw-w-8/12 lg:tw-w-6/12 xl:tw-w-[50%] tw-absolute tw-top-1/3 tw-right-0 xl:-tw-right-12"
       >
         <HeroCard :user="userCard[1]" />
       </div>
@@ -101,9 +107,5 @@
 
   .hero__img {
     z-index: -1;
-  }
-
-  .first-card {
-    top: 60%;
   }
 </style>

@@ -9,7 +9,9 @@
 <template>
   <div class="tw-container tw-mt-16 md:tw-mt-16 md:tw-flex tw-gap-6">
     <div class="md:tw-basis-1/2 lg:tw-mr-32">
-      <img class="tw-h-auto tw-w-full" :src="img.Customer" alt="customer" />
+      <div class="tw-min-h-[200px] tw-h-auto tw-bg-bg-1 tw-rounded-t-2xl">
+        <img class="tw-h-auto tw-w-full" :src="img.Customer" alt="customer" />
+      </div>
     </div>
     <div class="tw-mt-12 md:tw-mt-0 md:tw-basis-1/2 tw-self-center">
       <SectionInfo :style="style" :title="_.title" :text="_.text1">

@@ -10,28 +10,40 @@
   <div class="tw-container md:tw-mt-16 md:tw-flex tw-gap-6">
     <div class="tw-mt-5 md:tw-basis-1/2 lg:tw-mr-24 lg:tw-ml-8">
       <div
-        class="card__wrapper tw-w-11/12 tw-p-8 tw-mx-auto tw-bg-white tw-relative"
+        class="card__wrapper tw-w-11/12 tw-p-8 tw-mx-auto tw-min-h-[200px] tw-bg-white tw-relative"
       >
         <img
           class="tw-h-auto tw-w-full"
           :src="_.MessageCard"
           alt="message card"
         />
-        <img
-          class="tw-w-16 tw-object-cover tw-cursor-pointer hover:tw-scale-125 tw-rounded-full tw-h-16 tw-outline tw-outline-4 tw-outline-white tw-absolute tw--left-8 tw-top-1/4"
-          :src="img.Rectangle18"
-          alt="user rounded image"
-        />
-        <img
-          class="tw-w-16 tw-object-cover tw-cursor-pointer hover:tw-scale-125 tw-rounded-full tw-h-16 tw-outline tw-outline-4 tw-outline-white tw-absolute tw-top-[50%] md:tw-top-[60%] tw--right-3"
-          :src="img.Rectangle14"
-          alt="user rounded image"
-        />
-        <img
-          class="tw-w-16 tw-object-cover tw-cursor-pointer hover:tw-scale-125 tw-rounded-full tw-h-16 tw-outline tw-outline-4 tw-outline-white tw-absolute tw--bottom-4 tw-left-[15%]"
-          :src="img.Rectangle15"
-          alt="user rounded image"
-        />
+        <span
+          class="tw-w-16 tw-cursor-pointer hover:tw-scale-125 tw-rounded-full tw-h-16 tw-outline tw-outline-4 tw-outline-white tw-absolute tw--left-8 tw-top-1/4 tw-bg-bg-1"
+        >
+          <img
+            class="tw-w-full tw-h-full tw-rounded-full tw-object-cover"
+            :src="img.Rectangle18"
+            alt="user rounded image"
+          />
+        </span>
+        <span
+          class="tw-w-16 tw-cursor-pointer hover:tw-scale-125 tw-rounded-full tw-h-16 tw-outline tw-outline-4 tw-outline-white tw-absolute tw-top-[50%] md:tw-top-[60%] tw--right-3 tw-bg-bg-1"
+        >
+          <img
+            class="tw-h-full tw-w-full tw-rounded-full tw-object-cover"
+            :src="img.Rectangle14"
+            alt="user rounded image"
+          />
+        </span>
+        <span
+          class="tw-w-16 tw-cursor-pointer hover:tw-scale-125 tw-rounded-full tw-h-16 tw-outline tw-outline-4 tw-outline-white tw-absolute tw--bottom-4 tw-left-[15%] tw-bg-bg-1"
+        >
+          <img
+            class="tw-h-full tw-w-full tw-rounded-full tw-object-cover"
+            :src="img.Rectangle15"
+            alt="user rounded image"
+          />
+        </span>
       </div>
     </div>
     <div class="tw-mt-12 md:tw-mt-0 md:tw-basis-1/2 tw-self-center">

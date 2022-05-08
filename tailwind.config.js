@@ -61,6 +61,12 @@ module.exports = {
           "font-weight": "400",
           "line-height": "2rem",
         },
+        //XS SCREENS ABOVE
+        [`@media (min-width: 400px)`]: {
+          ".container": {
+            "max-width": "576px",
+          },
+        },
         //SM SCREENS ABOVE
         [`@media (min-width: 640px)`]: {
           ".container": {
