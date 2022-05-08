@@ -1,10 +1,9 @@
 <script setup lang="ts">
-  import img from "../../assets/images/index.ts";
-  import Btn from "../reusables/Btn.vue";
-  import { socialIcons } from "../../assets/utils/index.ts";
+  import img from "../../assets/images/index";
+  import { socialIcons } from "../../assets/utils/index";
   import { inject } from "vue";
 
-  const homeUrl = inject("homeUrl");
+  const homeUrl = inject<string>("homeUrl");
 </script>
 
 <template>

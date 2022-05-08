@@ -1,10 +1,10 @@
 <script setup lang="ts">
-  import img from "../../assets/images/index.ts";
+  import img from "../../assets/images/index";
   import { ref } from "vue";
   import Btn from "../reusables/Btn.vue";
   import { inject } from "vue";
 
-  const homeUrl = inject("homeUrl"),
+  const homeUrl = inject<string>("homeUrl"),
     toggle = ref(false),
     ul = ref<HTMLUListElement>(),
     button = ref<HTMLButtonElement>(),

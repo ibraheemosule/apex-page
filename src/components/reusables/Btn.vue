@@ -1,7 +1,7 @@
 <script setup lang="ts">
   import { inject } from "vue";
 
-  const homeUrl = inject("homeUrl");
+  const homeUrl = inject<string>("homeUrl");
 </script>
 
 <template>

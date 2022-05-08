@@ -4,16 +4,18 @@
     text?: string;
     style?: {
       font: number;
-      margin?: number;
+      margin?: string;
     };
   }
 
   const props = withDefaults(defineProps<Props>(), {
-    style: {
+    style: () => ({
       font: 400,
       margin: "14rem",
-    },
+    }),
   });
+
+  const { font, margin } = props.style;
 </script>
 
 <template>
@@ -35,7 +37,7 @@
 
   @media (min-width: 1280px) {
     p.text {
-      margin-right: v-bind(style.margin);
+      margin-right: v-bind(margin);
     }
   } ;
 </style>
