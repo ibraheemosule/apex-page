@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="tw-mt-[6.56rem]">
+  <div class="tw-mt-16 md:tw-mt-[6.56rem]">
     <h1
       class="tw-mx-auto tw-font-title tw-text-center md:tw-w-10/12 lg:tw-w-3/4 xl:tw-w-7/12"
     >

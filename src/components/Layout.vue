@@ -41,29 +41,29 @@
     <section class="md:tw-container">
       <Navbar />
     </section>
-    <section class="tw-container anim-1">
+    <section class="tw-container">
       <Hero />
 
-      <div class="tw--mt-40 tw-z-30 tw-py-16 tw-bg-white anim-2">
+      <div class="tw--mt-40 tw-z-30 tw-py-16 tw-bg-white">
         <Features />
       </div>
     </section>
-    <section class="tw-bg-bg-3 tw-py-8 anim-3">
+    <section class="tw-bg-bg-3 tw-py-8 md:tw-pb-24">
       <MeetCustomers />
     </section>
-    <section class="tw-py-8 tw-overflow-hidden anim-4">
+    <section class="tw-py-8 tw-overflow-hidden">
       <StartSelling />
     </section>
-    <section class="tw-bg-bg-3 tw-pt-8 tw-pb-24 md:tw-pb-32 anim-5">
+    <section class="tw-bg-bg-3 tw-pt-8 tw-pb-24 md:tw-pb-32">
       <Orders />
     </section>
-    <section class="tw-bg-[#FB8E0B] anim-6">
+    <section class="tw-bg-[#FB8E0B]">
       <AboutUs />
     </section>
-    <section class="tw-container anim-7">
+    <section class="tw-container">
       <GrowBusiness />
     </section>
-    <footer class="tw-container anim-8">
+    <footer class="tw-container">
       <FooterNav />
       <Copyright />
     </footer>

@@ -53,7 +53,9 @@
             class="tw-flex sm:tw-gap-6 md:gap-0 lg:gap-8 tw-justify-between md:tw-justify-start tw-mt-20"
           >
             <div class="tw-flex">
-              <h3 class="tw-text-[2rem] sm:tw-text-[2.625rem] tw-leading-[0]">
+              <h3
+                class="tw-text-[2rem] tw-font-bold sm:tw-text-[2.625rem] tw-leading-[0]"
+              >
                 4.3K+
               </h3>
               <div class="tw-ml-2 md:tw-ml-6 tw--mt-4 sm:tw--mt-6">
@@ -65,7 +67,9 @@
               </div>
             </div>
             <div class="tw-flex">
-              <h3 class="tw-text-[2rem] sm:tw-text-[2.625rem] tw-leading-[0]">
+              <h3
+                class="tw-text-[2rem] tw-font-bold sm:tw-text-[2.625rem] tw-leading-[0]"
+              >
                 7M+
               </h3>
               <div class="tw-ml-1 md:tw-ml-6 tw--mt-4 sm:tw--mt-6">

@@ -7,7 +7,9 @@
 </script>
 
 <template>
-  <div class="tw-container tw-mt-16 md:tw-mt-16 md:tw-flex tw-gap-6">
+  <div
+    class="tw-container tw-py-8 md:tw-pb-0 md:tw-pt-16 tw-flex tw-flex-col-reverse md:tw-flex-row tw-gap-6"
+  >
     <div class="md:tw-basis-1/2 tw-self-center lg:tw-mr-12 xl:tw-mr-32">
       <SectionInfo :style="style" :title="_.title">
         <template #other>
@@ -22,7 +24,7 @@
     </div>
     <div class="md:tw-basis-1/2 tw-relative">
       <img
-        class="tw-mt-16 md:tw-mt-0 tw-z-10 tw-mx-auto"
+        class="tw-z-10 tw-mx-auto"
         :src="_.ChatCard"
         alt="smiling-african-american-woman-using-mobile-phone-shopping-online-reading-text-message"
       />
